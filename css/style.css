@@ -52,6 +52,11 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 h1, h2, h3, h4, h5, h6, p {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -1005,13 +1010,6 @@ header {
     text-align: center;
 }
 
-#team-img {
-    position: relative;
-    margin-bottom: 20px;
-    z-index: 11;
-}
-
-
 }
 
 #team .overlay {
@@ -1812,4 +1810,7 @@ header {
     -webkit-transform:scale(0);
             transform:scale(0);
   }
+}
+.jg-wrapper{
+    width: 100%;
 }
