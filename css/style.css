@@ -41,6 +41,10 @@ Table OF Contents
 	General
 \*------------------------------------*/
 
+.owl-carousel .owl-item img {
+    width: auto;
+}
+
 
 /* -- typography -- */
 
